@@ -1,6 +1,6 @@
 Package.describe({
     name: 'leopradel:meteor-ionic-push',
-    summary: 'Authorization package for Meteor',
+    summary: 'Meteor package for sending push notifications via ionic push',
     version: '0.0.1',
     git: 'https://github.com/pradel/meteor-ionic-push.git',
     documentation: 'README.md'
