@@ -3,12 +3,9 @@
 Meteor package for sending push notifications via [ionic push](http://docs.ionic.io/docs/push-quick-start)
 
 ## Installation
-    ```bash
     meteor add leopradel:meteor-ionic-push
-    ```
 
 ## Example
-    ```javascript
     // Config Ionic Push service
     Meteor.startup(function() {
         IonicPush.config('your_ionic_app_id', 'your_ionic_app_secret');
@@ -27,4 +24,3 @@ Meteor package for sending push notifications via [ionic push](http://docs.ionic
             });
         }
     });
-    ```
