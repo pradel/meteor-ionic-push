@@ -23,10 +23,10 @@ IonicPush = {
     },
 
     /**
-     * @description check the status of a queued push notification
+     * @description Check the status of a queued push notification
      * @param {String} message_id ionic message id
      **/
-    chechPushStatus: function(message_id) {
+    checkPushStatus: function(message_id) {
         var options = {
             headers: this.headers
         };

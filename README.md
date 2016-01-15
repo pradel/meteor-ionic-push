@@ -24,3 +24,13 @@ Meteor package for sending push notifications via [ionic push](http://docs.ionic
             });
         }
     });
+
+## API
+* `config(app_id, app_secret)`
+Configure IonicPush package
+
+* `send(params)`
+Send a new push notification to ionic
+
+* `checkPushStatus(message_id)`
+Check the status of a queued push notification
