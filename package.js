@@ -1,7 +1,7 @@
 Package.describe({
     name: 'leopradel:meteor-ionic-push',
     summary: 'Meteor package for sending push notifications via ionic push',
-    version: '0.0.1',
+    version: '0.0.2',
     git: 'https://github.com/pradel/meteor-ionic-push.git',
     documentation: 'README.md'
 });
